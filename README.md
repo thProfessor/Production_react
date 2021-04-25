@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Production Ready React Starter Files
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made using create-react-app styled-components axios redux react-redux redux-thunk.
 
-## Available Scripts
+## yarn or npm install
 
-In the project directory, you can run:
+to install the dependencies of the project
 
 ### `yarn start`
 
@@ -41,13 +41,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Redux setup local storage management multiple api integration support using axios and go to folder structure
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+redux has store, action-creators, action-types and reducers.
+components will have all the components as folders with their respective styles.
+global styles for the basic app setup (change font margins etc)
+pallette for the colors used in making for both dark and light mode.
+mediaquerry folder to add responsive sizes currently has mobile and tablet.
+utils folder contains the header auths for tokens and local storage control 
 
 ### Analyzing the Bundle Size
 
